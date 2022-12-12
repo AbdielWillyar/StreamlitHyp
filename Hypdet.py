@@ -53,7 +53,7 @@ bt = st.button('Get Result')
 
 mm_scaler = preprocessing.MinMaxScaler()
 data = mm_scaler.fit_transform(user_input)
-model  = load_model("C:/Python/VS/UKSW/AI/hypmod.h5")
+model  = load_model("hypmod.h5")
 
 if bt:
     
